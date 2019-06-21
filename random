@@ -1,0 +1,5 @@
+import re
+r=re.search('abc','this is an absolute ab string')
+print(r.group())
+print(r.start())
+print(r.end())
